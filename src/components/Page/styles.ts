@@ -13,6 +13,7 @@ export const ContentLogin = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 `;
 
 export const ContentImg = styled.img`
@@ -24,3 +25,11 @@ export const ContentImg = styled.img`
     display: none;
   }
 `;
+
+export const Camp = styled.img`
+  width: 115px;
+  height: 28px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+`

@@ -85,6 +85,34 @@ export const LoginForm = styled.form`
   .remember {
     display: flex;
     justify-content: space-between;
+    
+    >label{
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      font-weight: 400;
+      font-family: Roboto, sans-serif;
+    }
+
+    >label input[type="checkbox"] {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height:1px;
+      overflow: hidden;
+      position: absolute;
+      white-space:nowrap;
+      width: 1px;
+    }
+
+    .checkbox{
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      background: transparent;
+      border: 1px solid grey;
+      border-radius: 5px;
+      margin-right: 4px;
+    }
     > a {
       font-size: 14px;
       font-weight: 600, Semi Bold;
